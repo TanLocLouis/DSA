@@ -19,6 +19,7 @@ public:
         adj[v].push_back(u); // If the graph is undirected
     }
 
+    // BFS using recursive
     void BFS(int start) {
         vector<bool> visited(V, false);
         queue<int> q;
